@@ -272,6 +272,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home * {
+    display: block;
     margin: 0;
     width: 500px;
     height: auto;
@@ -286,14 +287,19 @@ footer {
     width: 500px;
   }
   .home .walk {
-    display: flex;
     flex-direction: column-reverse;
+  }
+  .home .walk-img {
+    display: block;
+    margin: auto;
+    width: 500px;
   }
   .home .walk-text {
     padding: 0px;
   }
 }
 .home .btn {
-  margin-left: 100px;
-  padding: 400px;
+  display: block;
+  margin-left: 200px;
+  width: 400px 400px;
 }
