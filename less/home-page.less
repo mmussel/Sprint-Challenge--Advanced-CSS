@@ -41,7 +41,7 @@
 
   .walk {
     margin-top: 60px;
-    border-top: 1px solid @main-border-color;
+    border-top: 1px solid;
     padding: 50px 60px;
     display: flex;
     justify-content: center;
@@ -58,7 +58,13 @@
       }
 
       .btn {
+      .button();
+       }
+      .btn:hover{
+        color: black;
+        background-color: white;
       }
+    
     }
 
     .walk-img {
@@ -72,4 +78,38 @@
       }
     }
   }
-}// home
+  @media (max-width: 500px){
+    *{
+      
+      margin: 0;
+      width: 500px;
+      height: auto;
+    }
+    .sky{
+      display: none;
+    }
+    .launch{
+      display: none;
+    }
+    .blast{
+      width: 500px;
+      }
+    
+    
+      .walk{
+    display:flex;
+    flex-direction: column-reverse;
+      }
+    .walk-text{
+      padding: 0px;
+    }
+      
+    }
+    .btn{
+      margin-left: 100px;
+      padding: 400px;
+      
+    }
+    
+  }
+// home
