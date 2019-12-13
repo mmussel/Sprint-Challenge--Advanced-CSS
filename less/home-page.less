@@ -41,7 +41,7 @@
 
   .walk {
     margin-top: 60px;
-    border-top: 1px solid @main-border-color;
+    border-top: 1px solid;
     padding: 50px 60px;
     display: flex;
     justify-content: center;
@@ -57,8 +57,14 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+        .btn {
+        .button();
+         }
+      .btn:hover{
+        color: black;
+        background-color: white;
       }
+    
     }
 
     .walk-img {
@@ -72,4 +78,44 @@
       }
     }
   }
-}// home
+  @media (max-width: 500px){
+    *{
+      display: block;
+      margin: 0;
+      width: 500px;
+      height: auto;
+    }
+    .sky{
+      display: none;
+    }
+    .launch{
+      display: none;
+    }
+    .blast{
+      width: 500px;
+      }
+    
+    
+      .walk{
+    flex-direction: column-reverse;
+      }
+      .walk-img{
+        display: block;
+        margin: auto;
+        width: 500px;
+        
+      }
+    .walk-text{
+      padding: 0px;
+    }
+      
+    }
+    .btn{
+      display: block;
+      margin-left: 200px;
+      width: 400px 400px;
+      
+    }
+    
+  }
+// home
