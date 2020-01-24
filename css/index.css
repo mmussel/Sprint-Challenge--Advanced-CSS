@@ -290,13 +290,14 @@ footer {
   .home .walk-text {
     padding: 0px;
   }
-}
-.home .btn {
-  background-color: black;
-  width: 30%;
-  text-align: center;
-  padding: 5px 10px 5px 10px;
-  font-size: 170%;
-  color: white;
-  border-radius: 5px;
+  .home .btn {
+    margin-left: 20%;
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-size: 170%;
+    color: white;
+    border-radius: 5px;
+  }
 }

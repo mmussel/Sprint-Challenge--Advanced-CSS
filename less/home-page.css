@@ -82,4 +82,7 @@
   .home .walk-text {
     padding: 0px;
   }
+  .home .btn {
+    margin-left: 20%;
+  }
 }
