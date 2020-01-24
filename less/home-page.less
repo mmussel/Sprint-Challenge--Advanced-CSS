@@ -38,16 +38,19 @@
       margin-top: 13px;
     }
   }
+.border(@width; @style; @color){
+
 
   .walk {
+    border: @width @style @color;
     margin-top: 60px;
-    border-top: 1px solid;
     padding: 50px 60px;
     display: flex;
     justify-content: center;
 
     .walk-text {
       width: 400px;
+      .border(1px solid black);
 
       h3 {
         margin-bottom: 10px;
@@ -56,7 +59,7 @@
       p {
         margin-bottom: 26px;
       }
-
+    }
         
       .btn:hover{
         color: @hover-color;
@@ -66,7 +69,7 @@
     }
 
     .walk-img {
-     
+      .border(1px solid black);
       margin-left: 0%;
       
       img {
@@ -83,7 +86,8 @@
       padding: 10px;
       text-align: center;
       float: left;
-      width: 200px;
+      
+      
       
     }
   }
@@ -118,8 +122,7 @@
       
     
     .btn{
-      margin-left: 20%;
-      .button();
+     width: 400px;
       
     }
     }
