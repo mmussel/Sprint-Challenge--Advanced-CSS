@@ -259,7 +259,17 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-@media (max-width: 500px) {
+.home .walk .btn {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  width: 200px;
+}
+@media only screen and (max-width: 500px) {
   .home .sky {
     display: none;
   }
@@ -282,7 +292,11 @@ footer {
   }
 }
 .home .btn {
-  display: block;
-  margin-left: 200px;
-  width: 400px 400px;
+  background-color: black;
+  width: 30%;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  font-size: 170%;
+  color: white;
+  border-radius: 5px;
 }
