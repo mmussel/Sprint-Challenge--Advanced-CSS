@@ -40,7 +40,7 @@
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn:hover {
-  color: black;
+  color: #454A59;
   background-color: white;
 }
 .home .walk .walk-img {
@@ -82,7 +82,4 @@
   .home .walk-text {
     padding: 0px;
   }
-}
-.home .btn {
-  width: 400px;
 }
