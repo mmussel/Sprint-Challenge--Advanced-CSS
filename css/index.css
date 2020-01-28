@@ -244,7 +244,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  background-color: black;
+  background-color: #22283A;
   padding: 20px 10px;
   font-size: 1.6rem;
   color: white;
@@ -253,8 +253,9 @@ footer {
   margin: auto;
   margin-right: 70%;
   font-size: 170%;
+  margin-bottom: 20px;
 }
-.home .walk .walk-text .btn .btn:hover {
+.home .walk .walk-text .btn:hover {
   color: black;
   background-color: white;
 }
