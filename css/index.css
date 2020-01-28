@@ -231,46 +231,6 @@ footer {
 .home .visit-planets p {
   margin-top: 13px;
 }
-.home .walk {
-  margin-top: 60px;
-  border-top: 1px solid;
-  padding: 50px 60px;
-  display: flex;
-  justify-content: center;
-}
-.home .walk .walk-text {
-  width: 400px;
-}
-.home .walk .walk-text h3 {
-  margin-bottom: 10px;
-}
-.home .walk .walk-text p {
-  margin-bottom: 26px;
-}
-.home .walk .walk-text .btn:hover {
-  color: #454A59;
-  background-color: white;
-}
-.home .walk .walk-img {
-  margin-left: 0%;
-}
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-.home .walk .btn {
-  width: 30%;
-  padding: 5px 10px 5px 10px;
-  font-size: 170%;
-  font-size: 20px;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  float: left;
-}
 @media only screen and (max-width: 500px) {
   .home .sky {
     display: none;
