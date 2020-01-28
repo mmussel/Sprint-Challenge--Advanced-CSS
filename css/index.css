@@ -1,15 +1,11 @@
-.button {
-  background-color: black;
-  width: 30%;
-  text-align: center;
-  padding: 5px 10px 5px 10px;
-  font-size: 170%;
-  color: white;
-  border-radius: 5px;
-}
 .top-section1 {
   background-color: #F0E7E7;
   justify-content: space-around;
+}
+.top-section-h1 {
+  text-align: center;
+  font-size: 400%;
+  margin-bottom: 3%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -218,8 +214,7 @@ footer {
   width: 100%;
 }
 .home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
+  margin: 1.5%;
   border-radius: 20px;
   height: 100%;
 }
@@ -234,8 +229,8 @@ footer {
 }
 .home .walk {
   margin-top: 60px;
-  border-top: 1px solid;
-  padding: 50px 60px;
+  border-top: 1px solid black;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -250,25 +245,26 @@ footer {
 }
 .home .walk .walk-text .btn {
   background-color: black;
-  width: 30%;
-  text-align: center;
-  padding: 5px 10px 5px 10px;
-  font-size: 170%;
+  padding: 20px 10px;
+  font-size: 1.6rem;
   color: white;
   border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  margin-right: 70%;
+  font-size: 170%;
 }
-.home .walk .walk-text .btn:hover {
+.home .walk .walk-text .btn .btn:hover {
   color: black;
   background-color: white;
 }
 .home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
+  margin-left: 2%;
 }
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 @media (max-width: 500px) {
   .home * {
@@ -292,14 +288,17 @@ footer {
   .home .walk-img {
     display: block;
     margin: auto;
-    width: 500px;
+    width: 480px;
   }
   .home .walk-text {
     padding: 0px;
   }
-}
-.home .btn {
-  display: block;
-  margin-left: 200px;
-  width: 400px 400px;
+  .home .btn {
+    display: block;
+    margin-right: 200px;
+    width: 200%;
+  }
+  .home footer {
+    text-align: center;
+  }
 }
