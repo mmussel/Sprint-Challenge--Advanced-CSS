@@ -1,7 +1,6 @@
 // Home Content
 
 .home {
-
   .intro {
 
     h2 {
@@ -20,8 +19,8 @@
     width: 100%;
 
     img {
-      width: 28%;
-      margin: 20px 2.5%;
+     
+      margin:1.5%;
       border-radius: 20px;
       height: 100%;
     }
@@ -41,43 +40,50 @@
 
   .walk {
     margin-top: 60px;
-    border-top: 1px solid;
-    padding: 50px 60px;
+    border-top: 1px solid black;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
+   
 
     .walk-text {
       width: 50%;
+     
 
       h3 {
         margin-bottom: 10px;
       }
 
       p {
+        
         margin-bottom: 26px;
       }
 
         .btn {
-        .button();
-         }
+          .button(#22283A, 20px 10px, 1.6rem, white, 5px);
+        margin: auto;
+        margin-right: 70%;
+        font-size: 170%;
+        margin-bottom: 20px;
+        }
       .btn:hover{
         color: black;
         background-color: white;
       }
-    
+        
     }
 
     .walk-img {
-      width: 46%;
-      margin-left: 4%;
+      margin-left: 2%;
       
       img {
         width: 100%;
         height: auto;
-        border-radius: 10px;
+        border-radius: 20px;
       }
     }
-  }
+  
+}
   @media (max-width: 500px){
     *{
       display: block;
@@ -102,20 +108,24 @@
       .walk-img{
         display: block;
         margin: auto;
-        width: 500px;
+        width: 480px;
         
       }
     .walk-text{
       padding: 0px;
     }
       
-    }
+    
     .btn{
       display: block;
-      margin-left: 200px;
-      width: 400px 400px;
+      margin-right: 200px;
+      width: 200%;
+     
       
     }
-    
+    footer{
+     text-align: center;
+    }
   }
-// home
+ 
+}

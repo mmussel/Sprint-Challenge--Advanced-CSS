@@ -1,13 +1,9 @@
-.button {
-  background-color: black;
-  width: 30%;
-  text-align: center;
-  padding: 5px 10px 5px 10px;
-  font-size: 170%;
-  color: white;
-  border-radius: 5px;
-}
 .top-section1 {
   background-color: #F0E7E7;
   justify-content: space-around;
+}
+.top-section-h1 {
+  text-align: center;
+  font-size: 400%;
+  margin-bottom: 3%;
 }

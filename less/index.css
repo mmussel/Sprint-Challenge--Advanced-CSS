@@ -1,3 +1,7 @@
+.top-section1 {
+  background-color: #F0E7E7;
+  justify-content: space-around;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,6 +164,29 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.top {
+  background-color: #F0E7E7;
+  justify-content: space-around;
+}
+.top h1 {
+  text-align: center;
+  font-size: 400%;
+  margin-bottom: 3%;
+}
+.top nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 200%;
+  display: inline;
+  padding-right: 30px;
+}
+.top nav {
+  text-align: center;
+  justify-content: space-around;
+}
+.first-pic img {
+  border-radius: 5px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -198,7 +225,7 @@ footer {
 }
 .home .walk {
   margin-top: 60px;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
@@ -212,6 +239,18 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  background-color: yellow;
+  padding: 5px;
+  font-size: 170%;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.home .walk .walk-text .btn:hover {
+  color: black;
+  background-color: white;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -220,4 +259,37 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home * {
+    display: block;
+    margin: 0;
+    width: 500px;
+    height: auto;
+  }
+  .home .sky {
+    display: none;
+  }
+  .home .launch {
+    display: none;
+  }
+  .home .blast {
+    width: 500px;
+  }
+  .home .walk {
+    flex-direction: column-reverse;
+  }
+  .home .walk-img {
+    display: block;
+    margin: auto;
+    width: 500px;
+  }
+  .home .walk-text {
+    padding: 0px;
+  }
+}
+.home .btn {
+  display: block;
+  margin-left: 200px;
+  width: 400px 400px;
 }
